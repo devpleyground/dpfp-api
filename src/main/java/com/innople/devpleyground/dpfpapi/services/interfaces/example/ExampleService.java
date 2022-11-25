@@ -8,5 +8,5 @@ public interface ExampleService {
     public Example getOne(Long id) throws Exception;
     public List<Example> findAllByName(String name);
     public Example save(Example domain);
-    public boolean deleteSampleDomain(Long id);
+    public boolean delete(Long id);
 }
